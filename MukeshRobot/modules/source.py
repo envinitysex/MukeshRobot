@@ -9,7 +9,7 @@ from telethon import __version__ as s
 from MukeshRobot import OWNER_ID, dispatcher
 from MukeshRobot import pbot as client
 
-ɴᴛ = "https://graph.org/file/2a50d39af8daec3d36d70.jpg"
+ᴍɪᴅɴɪɢʜᴛ = "https://graph.org/file/d4a48966b197e7292681a.jpg"
 
 
 @client.on_message(filters.command(["repo", "source"]))
@@ -34,7 +34,7 @@ async def repo(client, message):
                     ),
                     InlineKeyboardButton(
                         "• ʀᴇᴘᴏ •",
-                        url="https://t.me/foundermidnight",
+                        url="https://t.me/Areamidnight",
                     ),
                 ]
             ]
