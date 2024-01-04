@@ -730,7 +730,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="mukesh_back"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Asupanhot_viral")
+                        InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="mukesh_back"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/areamidnight")
                     ]
                 ]
             ),
