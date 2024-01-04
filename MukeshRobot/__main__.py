@@ -1016,7 +1016,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1499130346:
+        if OWNER_ID != 6024180996:
             update.effective_message.reply_text(
                 f"» ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {dispatcher.bot.first_name} sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs [ɢɪᴛʜᴜʙ](https://github.com)"
                 f"\n\nʟᴜ ʙɪsᴀ ʟᴀɴɢsᴜɴɢ ᴘᴄ ᴋᴇ ɢᴡ ʏᴀ ᴋᴀʟᴏ ᴍᴀᴜ ᴅᴏɴᴀᴛᴇ ᴜᴀɴʜ ʟᴇʙɪʜ ʟᴜ ᴡᴋᴡᴋ : [ʙᴇʀʟɪɴ](https://t.me/Berlinmidnight)",
@@ -1077,7 +1077,7 @@ def main():
         try:
             dispatcher.bot.send_photo(
                 f"@Berlinmusic_support",
-                photo=f"https://graph.org/file/fc935517a6707a9ef673b.jpg",
+                photo=f"https://graph.org/file/d4a48966b197e7292681a.jpg",
                 caption=f"""
 ✨{BOT_NAME} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ.
 ━━━━━━━━━━━━━
