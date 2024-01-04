@@ -1,7 +1,7 @@
 {
-    "name": "ɴᴛ ᴍᴜsɪᴄ ꝛσʙσᴛ",
+    "name": "ᴍɪᴅɴɪɢʜᴛ ꝛσʙσᴛ",
     "description": "Telegram Group Management Bot.",
-    "logo": "https://graph.org/file/2a50d39af8daec3d36d70.jpg",
+    "logo": "https://graph.org/file/d4a48966b197e7292681a.jpg",
     "keywords": [
        "telegram",
        "modular",
@@ -71,7 +71,7 @@
     "START_IMG": {
        "description": "Telegraph link of the image which will be shown at start command.",
        "required": true,
-       "value": "https://graph.org/file/2a50d39af8daec3d36d70.jpg"
+       "value": "https://graph.org/file/d4a48966b197e7292681a.jpg"
     },
     "SUPPORT_CHAT": {
        "description": "Your Telegram support group chat username where your users will go and bother you with shit Example - The_support_chat.",
