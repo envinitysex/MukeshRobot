@@ -52,7 +52,7 @@ if ENV:
         "START_IMG", ""
     )
     STRICT_GBAN = bool(os.environ.get("STRICT_GBAN", True))
-    SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "Areamidnight")
+    SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "envynitysex")
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", "./")
     TOKEN = os.environ.get("TOKEN", None)
     TIME_API_KEY = os.environ.get("TIME_API_KEY", None)
@@ -70,7 +70,7 @@ if ENV:
 
     try:
         DRAGONS = set(int(x) for x in os.environ.get("DRAGONS", "").split())
-        DEV_USERS = set(int(x) for x in os.environ.get("DEV_USERS", "6024180996").split())
+        DEV_USERS = set(int(x) for x in os.environ.get("DEV_USERS", "6238584665").split())
     except ValueError:
         raise Exception("Your sudo or dev users list does not contain valid integers.")
 
@@ -85,7 +85,7 @@ if ENV:
         raise Exception("Your tiger users list does not contain valid integers.")
 
     try:
-        WOLVES = set(int(x) for x in os.environ.get("WOLVES", "6024180996").split())
+        WOLVES = set(int(x) for x in os.environ.get("WOLVES", "6238584665").split())
     except ValueError:
         raise Exception("Your whitelisted users list does not contain valid integers.")
 
