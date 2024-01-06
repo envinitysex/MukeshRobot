@@ -91,7 +91,7 @@ buttons = [
         InlineKeyboardButton(text="ᴍᴜsɪᴄ", callback_data="Music_play"),
      ],
     [
-        InlineKeyboardButton(text="ᴅᴏɴᴀᴛᴇ", url=f"https://t.me/Foundermidnight"),
+        InlineKeyboardButton(text="ᴅᴏɴᴀᴛᴇ", url=f"https://t.me/Dukeassit"),
     ],     
     [
         InlineKeyboardButton(
@@ -592,7 +592,7 @@ Wᴀʀɴ Mᴀɴᴀɢᴇᴍᴇɴᴛ
         InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
      ],
                     [
-                        InlineKeyboardButton(text="• Dᴏɴᴀᴛᴇ •", url=f"https://t.me/foundermidnight"),InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", callback_data="mukesh_support")
+                        InlineKeyboardButton(text="• Dᴏɴᴀᴛᴇ •", url=f"https://t.me/Dukeassit"),InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", callback_data="mukesh_support")
                     ]
                 ]
             ),
@@ -730,7 +730,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="mukesh_back"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/areamidnight")
+                        InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="mukesh_back"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/envynitysex")
                     ]
                 ]
             ),
@@ -1077,13 +1077,13 @@ def main():
         try:
             dispatcher.bot.send_photo(
                 f"@Berlinmusic_support",
-                photo=f"https://graph.org/file/d4a48966b197e7292681a.jpg",
+                photo=f"https://graph.org/file/09598b49de61d19475b9a.jpg",
                 caption=f"""
 ✨{BOT_NAME} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ.
 ━━━━━━━━━━━━━
-๏ **ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ʙʏ :** [ɴᴛ](tg://user?id=6024180996)
-๏ ** ғᴏᴜɴᴅᴇʀ :** [ᴍɪᴅɴɪɢʜᴛ](https://t.me/+50pybD6yWmE5Y2Fl)
-๏ ** ꜱᴜᴘᴘᴏʀᴛ :** [ᴄʜᴀɴɴᴇʟ](https://t.me/Areamidnight)
+๏ **ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ʙʏ :** [ᴅᴜᴋᴇ](tg://user?id=6238584665)
+๏ ** ғᴏᴜɴᴅᴇʀ :** [ᴇɴᴠʏɴɪᴛʏ](https://t.me/+m5VgIKV_vFZhYjk9)
+๏ ** ꜱᴜᴘᴘᴏʀᴛ :** [ᴄʜᴀɴɴᴇʟ](https://t.me/envynitysex)
 ━━━━━━━━━━━━━
 """,reply_markup=x,
                 parse_mode=ParseMode.MARKDOWN,
